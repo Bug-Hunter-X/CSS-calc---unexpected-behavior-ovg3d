@@ -1,0 +1,1 @@
+The CSS property `calc()` is used to perform calculations within CSS, but sometimes unexpected behavior occurs due to operator precedence or unit mismatches. For instance, using `calc(100% - 10px)` in a situation where the parent element's width is not defined causes unexpected results.
